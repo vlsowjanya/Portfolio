@@ -1,0 +1,270 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+             <div class="container">
+                <nav>
+                    <!-- <img src="images/logoyellow.png" class="logo"> -->
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Projects</a></li>
+                        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <!-- <p>Graduate Student at ASU</p> -->
+                    <h2><span>Lakshmi Sowjanya V</span><br></h2>
+                    <p>Graduate Student at ASU</p>
+                    <!-- <h7>ASU graduate student building</h7>
+                    <p>high-performance hardware with a focus on PCB design, embedded systems, and semiconductor validation.</p> -->
+                </div>
+             </div>
+        </div>
+
+        <!---------about------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images\pic.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>Passionate Computer Engineering Graduate Student with strong expertise in digital and mixed-signal design, verification, and
+                            system integration. Proficient in essential hardware engineering tools and methodologies, including schematic capture, circuit
+                            layout, and prototype testing. Well-versed in advanced simulation and design tools like Cadence Virtuoso and MATLAB.
+                            Skilled in C, Python, VHDL and Verilog for effective design and troubleshooting. Committed to leveraging extensive knowledge
+                            in digital system architecture and semiconductor device physics to enhance project outcomes in complex, high technology
+                            environments.Actively seeking CPT-eligible internship opportunities for Summer 2025, Fall 2025.</p>
+
+
+                             <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Training-Experience')">Training-Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>EDA& Simulation Tools:</span><br>Cadence (Virtuoso, Innovus, Spectre), Synopsys (Design Compiler, HSPICE | Calibre, StarRC, IC
+                                        Validator), Mentor Graphics (Modelsim, Questasim), Xilinx (Vivado), MATLAB, Questa Sim, TCAD, Ansys HFSS, Cisco
+                                        Packet Tracer, Dsch2, AutoCAD, LTspice, Lingua Franca, Simulink, VMware</li>
+                                    <li><span>Embedded & Hardware Platforms:</span><br>Raspberry Pi, Arduino Uno, Pololu 3pi+ 2040 Robot, RTL Design, ARM Cortex</li>
+                                    <li><span>Programming Languages:</span><br>C, C++, Python, Verilog, VHDL, System Verilog</li>
+                                    <li><span>Coursework:</span><br>Analog & RF IC Design, Digital Verification and Testing, Transistor Design, VLSI Design, Computer Architecture</li>
+                                    <li><span>Hands-on Skills:</span><br>Physical Design Implementation (Netlist to GDSII), Physical Verification (DRC/LVS/ERC), Layout Issues,
+                                        ASIC Design, Digital Circuit Design</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>Systems Engineering Intern, Ingersoll Rand, Bengaluru, India (January 2024 ‑ June 2024)</span><br>
+                                        Tested Small and Microunit Controllers for air compressors using PuTTY for remote access and OmniMBT for automated
+testing, employing oscilloscopes, spectrum analyzers, and network analyzers for circuit validation and debugging.
+Conducted power analysis to ensure microcontroller efficiency and optimized PCB layouts using Altium Designer.
+Enhanced system integration through Modbus communication protocol testing over Ethernet and RS-485.</li>
+                                    <li><span>Intern, Bharat Electronics Limited (BEL), Hyderabad, India (July 2023 ‑ August 2023)</span><br>
+                                        Utilized the ZC706 evaluation board for the XC7Z045 SoC along with Xilinx Vivado FPGA and VHDL to design and
+                                        implement complex digital systems for real-time signal processing.
+                                        Gained deep insights into VARUNA, a high-performance, ship-borne Electronic Support Measures (ESM) system,
+                                        specializing in the interception, detection, classification, and identification of conventional and advanced radar signals.</li>
+                                    <li><span>Trainee, Bharat Sanchar Nigam Limited (BSNL) (August 2022)</span><br>
+                                        CDOT NGN Switching , Broadband and FTTH Technologies.Worked with CDOT NGN Switching to modernize telecommunication exchanges, gaining hands-on experience in broadband
+                                        infrastructure and data transmission.Learned about Cellular (LTE, 5G) , WiFi (802.11n Standards) FTTH technologies, focusing on fiber-optic installations and
+                                        network management.</li>
+                                    <li><span>Trainee, Teachnook (April 2022 - May 2022)</span><br>
+                                        Completed an IoT/Robotics course certificate , programming IoT devices and developing robot control algorithms.
+                                        Gained hands-on experience in data processing, cloud integration, and IoT security.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>Excepted Graduation'26  (GPA - 3.32)</span><br>Masters of Science in Computer Engineering(Electrical Engineering)<br>Arizona State University, Tempe, AZ</li>
+                                    <li><span>June 2024  (GPA - 3.34)</span><br>Bachelor of Technology in Electronics and Communication Engineering<br>Amrita Vishwa Vidyapeetham Bengaluru</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Training-Experience">
+                                <ul>
+                                    <li><span>Physical Design Trainee, VLSI Guru Institute of VLSI Design
+</span><br>May 2025 - November 2025<br>• Pursuing an in-depth 7-month Physical Design training program covering the complete RTL-to-GDSII flow using industry-leading EDA tools from Synopsys (ICC2, PrimeTime, StarRC, ICV) and Cadence (Innovus, Tempus, Voltus, Pegasus).
+• Gaining hands-on experience in synthesis, floorplanning, placement, power planning, clock tree synthesis (CTS), global and detailed routing, parasitic extraction, static and dynamic power analysis, and formal equivalence checking.
+• Learning signal integrity, IR drop, and electromigration (IR/EM) analysis using tools like PrimeTime SI, Tempus SI, and RedHawk-SC, with a strong focus on Design for Manufacturability (DFM) and tape-out readiness.
+• Practicing physical verification techniques including DRC, LVS, and ERC, along with Engineering Change Order (ECO) flows and scan chain reordering.
+• Strengthening backend design capabilities through Linux-based tool environments, TCL scripting, and real-time debugging, while working on multiple industry-grade SoC block-level and full-chip designs.
+• Developed a strong foundation in VLSI concepts, semiconductor device fundamentals, IC fabrication processes, and advanced digital design methodologies.</li>
+                                    <!-- <li><span>June 2024  (GPA - 3.34)</span><br>Bachelor of Technology in Electronics and Communication Engineering<br>Amrita Vishwa Vidyapeetham Bengaluru</li> -->
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------services------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="services-list">
+                    <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>RTL to GDSII ASIC Design:</h2>
+                    <p><h5>Graph Convolutional Neural Networks using Cadence Innovus 7nm PD</h5>Developed Verilog for GCN Module for 6 node classification application and verified functionality in Modelsim
+Executed synthesis using design compiler and validated synthesized netlist, conducted automatic place and route (APR) using
+Innovus, conducted post-APR simulations, and optimized power measurements.</p>
+                    <h4><a href="https://github.com/vlsowjanya/GCN">Press here to explore more</a></h4>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>Comprehensive and High-Coverage Verification of ALU and State Machine in SystemVerilog</h2>
+                    <p>Spearheaded the verification of ALU operations, Read/Write protocols, and state machine transitions, developing a
+ comprehensive test plan aligned with chip specifications and ensuring robust validation of all functional scenarios.
+ Utilized SystemVerilog testbenches within vi editor, achieving 100% code and functional coverage, ensuring design integrity
+ and seamless state machine behavior across all defined</p>
+                    <h4><a href="https://github.com/vlsowjanya/Verichip_DVT">Press here to explore more</a></h4> 
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>RTL to GDSII ASIC Design: Two-bit adder using Cadence Innovus 7nm PDK</h2>
+                    <p>Designed and verified a 2-bit adder RTL using Verilog and ModelSim, synthesized with Synopsys Design Compiler, and
+implemented floorplanning, power planning, CTS, and APR using Cadence Innovus.
+Performed post-layout extraction, timing and power analysis, imported GDSII into Cadence Virtuoso, and ensured design
+integrity through DRC and LVS checks.</p>
+                    <h4><a href="https://github.com/vlsowjanya/2bitadder">Press here to explore more</a></h4>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>Real-Time Autonomous Robotics with Lingua Franca on the Pololu 3pi+ Platform</h2>
+                    <p>Designed a real-time, event-driven autonomous robot using the Pololu 3pi+ 32U4 OLED platform and the Lingua Franca coordination language. Implemented advanced navigation, obstacle avoidance, hill climbing, and precision line-following using interrupt-driven C code, sensor fusion, and encoder feedback. Achieved seamless hardware-software integration through modular behavioral logic and deterministic coordination for reliable performance in dynamic environments.</p>
+                    <h4><a href="https://github.com/vlsowjanya/Pololu-3pi-">Press here to explore more</a></h4>
+                <h4><a href="images\VIDEO-LAB7_compressed.mp4">See it in action: Real-Time Robotics Demo</a></h4>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>Layout Design: Standard Gates Design and Development using 7nm FINFET and 32nm CMOS PDK. </h2>
+                    <p>Engineered schematic and layout of Inverter, NAND, NOR, and XOR using Cadence Virtuoso.
+ Performed Transient and DC analysis using HSPICE and the waive viewer tool was used to view the simulations.
+ Designed 3x3 layouts for NAND, NOR. Running DRC and LVS checks and debugging the errors. Parasitic extraction (PEX)
+ of the layout using Xact 3D for post-layout simulations.</p>
+                    <!-- <a href="#">Learn more</a>  -->
+                  </div>
+                <div>
+                   <i class="fa-solid fa-code"></i>
+                   <h2>Autonomous Robot for Surveillance</h2>
+                   <p>Engineered an autonomous surveillance robot utilizing Raspberry Pi 4 Model B, YOLO v4 for real-time object detection, and
+L298n Motor Drivers for precise navigation and obstacle avoidance in complex environments.
+Integrated live streaming and alert functionality using Raspberry Pi Camera, LoRa communication for data transmission and
+Python-based image processing, ensuring continuous monitoring and instantaneous security alerts.</p>
+                   <a href="images\WhatsApp Video 2025-01-23 at 20.45.10_54f7bcad.mp4"><h3>Press here to explore the robot movement.</h3></a>
+                   <a href="images\WhatsApp Video 2025-01-23 at 20.45.10_58e48563.mp4"><h3>Press here to explore the robot object detection.</h3></a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>Comparator and ADC Block</h2>
+                    <p>Designed an ultra low power dynamic comparator and ADC block for IoT devices, achieving significant power savings
+                        and reducing latency.
+                        Implemented sample and hold circuit, SAR block, and DAC conversion techniques, integrating a Phase-Locked Loop
+                        (PLL) for enhanced timing accuracy and system stability, reducing noise and optimizing signal integrity in the ADC block.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>Charge Pump</h2>
+                    <p>Designed and implemented a high-speed CMOS charge pump circuit for PLL applications in 90nm CMOS technology,
+                        achieving low power consumption, high output voltage, and fast settling time using LTSpice.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h2>Optimization Technique</h2>
+                    <p>Developed a Python-based algorithm to minimize equations using the Golden Section Search Method, enhancing
+                        computational efficiency by over 50% for mathematical optimization</p>
+                    <!-- <a href="#">Learn more</a> --> 
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!-------------portfolio------------>
+        <!-- <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1> 
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images\image.png">
+                        <div class="layer">
+                        <h3>3D-Design</h3>
+                        <p>Just a random satisfying design using the blender</p>
+                        <a href="images\WhatsApp Video 2025-01-23 at 20.45.10_54f7bcad.mp4"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="images\openimage.png">
+                        <div class="layer">
+                        <h3>3D-Design</h3>
+                        <p>Just a random satisfying design animation using the blender</p>
+                        <a href="images\WhatsApp Video 2025-01-23 at 20.45.10_58e48563.mp4"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </div> -->
+        <!---------------contact--------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>Email: lvendra@asu.edu  </p>
+                        <p><i class="fas fa-paper-plane"></i>Personal Email: vlsowjanya03@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>Mobile No: + 1 6233305848</p>
+                        <p><i class="fa-solid fa-phone"></i>Linkedin: <a href="http://www.linkedin.com/in/lakshmi-sowjanya-vendra-7ab130228">lakshmi-sowjanya-vendra</a></p>
+                        <div class="social-icons">
+                            <!-- <a href="https://instagram.com/nik.itha_reddy"><i class="fab fa-instagram"></i></a> -->
+                            <!-- <a href="linkedin.com/in/lakshmi-sowjanya-vendra-7ab130228/"><i class="fab fa-linkedin"></i></a> -->
+                        </div>
+                        <a href="images\Lakshmi Sowjanya CE.pdf" download class="btn btn2">Download resume</a>
+                    </div>
+                    <!-- <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab"); 
+            }
+            
+        </script>
+  
+    </body>
+ </html>
